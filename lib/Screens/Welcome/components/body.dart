@@ -17,7 +17,11 @@ class Body extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "WELCOME TO EDU",
+              "Selamat Datang",
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            Text(
+              "Di Aplikasi Portal Berita",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: size.height * 0.05),
@@ -40,7 +44,7 @@ class Body extends StatelessWidget {
               },
             ),
             RoundedButton(
-              text: "SIGN UP",
+              text: "DAFTAR",
               color: kPrimaryLightColor,
               textColor: Colors.black,
               press: () {
